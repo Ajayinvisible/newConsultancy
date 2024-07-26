@@ -1,0 +1,324 @@
+/*
+============== Responsive Mobile ================
+*/
+@media (min-width:320px) and (max-width: 767px){
+    // title and headings
+    h1,.h1 {
+        font-size: 2rem;
+      }
+    h2,.h2 {
+        font-size: 1.5rem;
+    }
+    h3,.h3 {
+        font-size: 1.17rem;
+    }
+    h4,.h4 {
+        font-size: 1rem;
+    }
+      
+    h5,.h5 {
+        font-size: 0.85rem;
+    }
+      
+    h6,.h6 {
+        font-size: 0.75rem;
+    }
+    .title{
+        font-size: 1.17rem;
+    }
+    // title headings End
+    .side-card{
+        padding: 10px;
+    }
+    .sm-side-card{
+        .side-dec{
+            width: 100%;
+        }
+    } 
+    .offcanvas{
+        width: 85%;
+    }
+    .mobile{
+        background: var(--bg-white);
+        border: 1px solid #e7e7e7;
+        .navbar-toggler{
+            &:focus{
+                box-shadow: none;
+            }
+            .navbar-toggler-icon{
+                i{
+                    color: var(--text-dark);
+                }
+                background-image: none;
+            }
+        }
+    }
+    .hero{
+        .hero_slider{
+            &:hover .slick-arrow{
+                display: none;
+            }
+            .slick-arrow{
+                display: none;
+            }
+            .item{
+                .hero-caption{
+                    display: block;
+                    transform: translate(30%, 70%);
+                    .display-1{
+                        font-size: 30px;
+                    }
+                    .display-6{
+                        font-size: 20px;
+                    }
+                }
+                img{
+                    height: 200px;
+                }
+            }
+        } 
+    } 
+    .sm-side-card .side-dec{
+        width: 100%;
+    }
+    .tabs{
+        .top{
+            margin: 0;
+            .mob-search{
+                background: #44749F;
+                .nav{
+                    .nav-item{
+                        .nav-link.active{
+                            background: #44749F;
+                        }
+                        .nav-link{
+                            color: var(--text-dark);
+                            background: var(--bg-white);
+                            font-size: 14px;
+                            border-radius: 0;
+                        }
+                        .active{
+                            color: var(--text-white);
+                        }
+                    }
+                }
+                .tab-content{
+                    background: #44749F;
+                    .un-w{
+                        width: 100%;
+                    }
+                    button{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .study-abroad{
+        .abroad{
+            margin-bottom: 50px;
+            img{
+                height: 300px;
+            }
+        }  
+        .accordion{
+            .accordion-item{
+                .accordion-collapse{
+                    .accordion-body{
+                        .sm-side-card{
+                          .side-dec{
+                            ul{
+                                li{
+                                    a{
+                                        font-size: 14px;
+                                    }
+                                }
+                            } 
+                          } 
+                        } 
+                    } 
+                }   
+            } 
+        } 
+    } 
+    .top-edu{
+        .top-edu__slider{
+            .slick-prev{
+                left: 75%;
+            }
+            .slick-slide{
+                .item{
+                    .top-edu-list{
+                        width: 100%;
+                    }
+                }
+            }  
+        } 
+    } 
+    /*=============country page css==============*/
+    .banner{
+        height: 200px;
+    }
+}
+
+/*
+============== Responsive Tabs ================
+*/
+@media (min-width:768px) and (max-width: 991px){
+    .offcanvas{
+        width: 85%;
+    }
+    .mobile{
+        background: var(--bg-white);
+        border: 1px solid #e7e7e7;
+        .navbar-toggler{
+            &:focus{
+                box-shadow: none;
+            }
+            .navbar-toggler-icon{
+                i{
+                    color: var(--text-dark);
+                }
+                background-image: none;
+            }
+        }
+    }
+    .hero{
+        .hero_slider{
+            .item{
+                img{
+                    height: 300px;
+                }
+            } 
+        } 
+    } 
+    .sm-side-card .side-dec{
+        width: 100%;
+    }
+    .tabs{
+        .top{
+            margin: 0;
+            .mob-search{
+                border-radius: 10px;
+                background: var(--bg-blue);
+                .nav{
+                    .nav-item{
+                        .nav-link.active{
+                            background: #44749F;
+                        }
+                        .nav-link{
+                            color: var(--text-white);
+                            background: var(--bg-orange);
+                        }
+                    }
+                }
+                .tab-content{
+                    background: var(--bg-blue);
+                    .un-w{
+                        width: 100%;
+                    }
+                    button{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    } 
+    .study-abroad{
+        .studyabroad__slide{
+            margin-top: 50px;
+            .slick-prev{
+                left: 85%;
+            }
+        }
+    } 
+    .top-edu{
+        .top-edu__slider{
+            .slick-prev{
+                left: 85%;
+            }
+            .slick-slide{
+                .item {
+                    .top-edu-list{
+                        width: 100%;
+                    }
+                }
+            } 
+        } 
+    } 
+}
+
+/*
+============== Responsive Old Desktop ================
+*/
+@media (min-width: 991px) and (max-width: 1024px){
+    .offcanvas{
+        width: 85%;
+    }
+    header{
+        .header-top{
+            .header-right{
+                .contact{
+                    width: 60%;
+                }
+                .register{
+                    width: 40%;
+                    ul{
+                        margin: 0;
+                    }
+                }
+            } 
+        } 
+    } 
+}
+
+/*
+============== Responsive Desktop ================
+*/
+@media (min-width: 1025px) and (max-width: 1440px){
+
+}
+
+
+@media (max-width: 991px) {
+    .mob-aco>.tab-pane {
+        display: block;
+        opacity: 1;
+    }
+}
+
+
+@media (min-width: 992px) {
+	.navbar-brand {
+	  display: none;
+	}
+	.mobile {
+	  display: none;
+	}
+	.dropdown-menu > li:hover > .submenu,
+  .dropdown:hover > .dropdown-menu {
+	  display: block;
+	}
+	.navbar .has-megamenu {
+	  position: static !important;
+	  border-radius: 0;
+	}
+	.navbar .megamenu {
+	  top: 75px;
+	  right: 0;
+	  left: 0;
+	  width: 100%;
+	  border-radius: 0;
+      padding: 0 15px;
+      .col-megamenu{
+        ul{
+            li{
+                padding: 7px 0;
+                a{
+                    color: var(--text-dark);
+                }
+            }
+        }
+      }
+	}
+  }
